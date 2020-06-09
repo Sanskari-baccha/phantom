@@ -17,38 +17,31 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hey {}, my name is {}! if you have any questions about how to use me use thid command 👉 /help
-
-im a group manager bot maintained by  [this man](tg://user?id={}).
-
-My Orginal code is available to you [CONTACT](https://t.me/THEWIZARD666)
+*My name is Ileana !! \n`I can help you out in mananging your group efficiency
+I can do what you cannot !` 
+\nI am more powerful & I have more features than any other bots.
+\n Just add me in an group & start using me !
+\n\n *I Made By* #SᴛᴀʀᴋGᴀɴɢ !!
 
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
-the things I can help you with.
-
 *Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /donate: information about how to donate!
- - /settings:
-   - in PM: will send you your settings for all supported modules.
-   - in a group: will redirect you to pm, with all that chat's settings.
+ ⚡ `/start`: *start the bot*
+ ⚡ `/help`: *PM's you this message.*
+ ⚡ `/help <module name>`: *PM's you info about that module.*
+ ⚡ `/donate`: *information about how to donate!*
+ ⚡ `/settings`:
+ ⚡ *In PM: will send you your settings for all supported modules.*
+ ⚡ *In a group: will redirect you to pm, with all that chat's settings.*
 
 
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """ Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/THEWIZARD666) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/THEWIZARD666) """
+DONATE_STRING = """ Hey, glad to hear you want to donate!
+But My Boss Don't Want Donation But You Can Buy Premium Accounts Or CC From My Boss  \nMyBoss : @MarioDevs """
 
 IMPORTED = {}
 MIGRATEABLE = []
