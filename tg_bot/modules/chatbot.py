@@ -91,7 +91,9 @@ __mod_name__ = "Chatbot"
 
 __help__ = """
 
-Powered by CoffeeHouse (https://coffeehouse.intellivoid.net/) from @Intellivoid
+Powered by CoffeeHouse (https://coffeehouse.intellivoid.net/) from Intellivoid
+To Add This in Your Group 
+IB - @STARKGANGLEADER
 
  - /addchat : Enables Chatbot mode in the chat.
  - /rmchat  : Disables Chatbot mode in the chat.
