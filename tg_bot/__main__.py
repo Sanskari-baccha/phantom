@@ -26,6 +26,8 @@ I can do what you cannot !`
 """
 
 HELP_STRINGS = """
+HELLO!! I Am Ileana Here Are Some Main Commands 🔥
+
 *Main* commands available:
  ⚡ `/start`: *start the bot*
  ⚡ `/help`: *PM's you this message.*
