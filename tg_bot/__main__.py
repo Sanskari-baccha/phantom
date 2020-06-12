@@ -19,8 +19,6 @@ from tg_bot import dispatcher, updater, TOKEN, WEBHOOK, SUDO_USERS, OWNER_ID, CE
 from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
-from tg_bot.modules.translations.strings import tld, tld_help
-from tg_bot.modules.connection import connected
 
 
 
@@ -146,7 +144,6 @@ Click Help button to find out more about how to use me to my full potential.\n\n
     keyboard = [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/HarukaAyaGroup")]]
     keyboard = [[InlineKeyboardButton(text="➕ Add Me To Your Group", url="t.me/ileanarobot?startgroup=true")]]
     keyboard += [[InlineKeyboardButton(text="🛠 Control panel", callback_data="cntrl_panel_M")]]
-    keyboard += [[InlineKeyboardButton(text="🇺🇸 Language", callback_data="set_lang_"), 
         InlineKeyboardButton(text="❔ Help", callback_data="help_back")]]
 
     update.effective_message.reply_text(text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN)
