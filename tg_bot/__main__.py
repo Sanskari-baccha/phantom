@@ -164,7 +164,7 @@ def control_panel(bot, update):
                                                                        url=f"t.me/{bot.username}?start=controlpanel")]]))
         return
 
-    #Support to run from command handler
+    # Support to run from command handler
     query = update.callback_query
     if query:
         query.message.delete()
